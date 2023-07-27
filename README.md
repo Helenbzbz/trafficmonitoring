@@ -40,7 +40,6 @@ ObjectDetector.ObjectDetectorOptions.builder()
 
 ![App example showing UI controls. Highlights a cat](https://storage.googleapis.com/download.tensorflow.org/tflite/examples/obj_detection_cat.gif)
 
-![App example showing UI controls. Highlights a cat, a book, and a couch.](screenshot1.png)
 
 ## Build in Android Studio. This was tested in Flamingo
 
