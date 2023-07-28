@@ -67,4 +67,7 @@ ObjectDetector.ObjectDetectorOptions.builder()
 *   With your Android device connected to your computer and developer mode
     enabled, click on the green Run arrow in Android Studio.
 
-### Models used
+### Models used   
+1. MobileNetV2 as tflite with metadata file
+2. EfficientDet as tflite with metadata file
+3. MobileNetV2 - fine tuned and converted to a tflite file
