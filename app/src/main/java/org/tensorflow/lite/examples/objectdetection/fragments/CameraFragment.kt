@@ -138,7 +138,7 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
             }
 
             override fun onProgressChanged(seekBar: SeekBar, progress: Int, fromUser: Boolean) {
-                objectDetectorHelper.maxResults = progress
+                objectDetectorHelper.maxResults = progress + 1 //seekbar starts at 0. Set floor=1
                 updateControlsUi()
             }
         })
@@ -154,7 +154,7 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
             }
 
             override fun onProgressChanged(seekBar: SeekBar, progress: Int, fromUser: Boolean) {
-                objectDetectorHelper.numThreads = progress
+                objectDetectorHelper.numThreads = progress + 1 //seekbar starts at 0. Set floor = 1
                 updateControlsUi()
             }
         })
