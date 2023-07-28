@@ -4,7 +4,7 @@
 
 ### Overview
 
-This app uses prebuilt tensorflow lite libraries to process a continuous stream from an Android device. 
+This app uses both prebuilt tensorflow lite libraries and a custom tensorflow lite model to process a continuous stream from an Android device. 
 
 [MobileNet SSD](https://tfhub.dev/tensorflow/lite-model/ssd_mobilenet_v1/1/metadata/2),
 [EfficientDet Lite 0](https://tfhub.dev/tensorflow/lite-model/efficientdet/lite0/detection/metadata/1),
