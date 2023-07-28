@@ -38,7 +38,7 @@ ObjectDetector.ObjectDetectorOptions.builder()
 .setScoreThreshold(threshold)
 .setMaxResults(maxResults)   
 
-![App example showing UI controls. Highlights a cat](https://storage.googleapis.com/download.tensorflow.org/tflite/examples/obj_detection_cat.gif)
+--------- NEED DEMO VIDEO ----------------
 
 
 ## Build in Android Studio. This was tested in Flamingo
