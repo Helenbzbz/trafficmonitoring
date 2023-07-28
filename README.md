@@ -17,7 +17,8 @@ model trained on the [COCO dataset](http://cocodataset.org/).
 Model files are downloaded as .tflite files with medidata prepackaged. See tensorflow hub for available prebuilt models. 
 Additional models can be added by using TensorFlows model converter and saving as a tflite.
 
-## Initialize additional tflite models    
+
+# Initialize additional tflite models #   
 1. Download a prebuilt tflite (object detection) model: https://tfhub.dev/
 2. Save a copy of the tflite file in src/main/assets folder
 3. In the ObjectDetectorHelper.kt kotlin file, add a new Key:Value under val modelName OR set modelName directly to your model's filename
@@ -39,7 +40,6 @@ ObjectDetector.ObjectDetectorOptions.builder()
 
 ![App example showing UI controls. Highlights a cat](https://storage.googleapis.com/download.tensorflow.org/tflite/examples/obj_detection_cat.gif)
 
-![App example showing UI controls. Highlights a cat, a book, and a couch.](screenshot1.png)
 
 ## Build in Android Studio. This was tested in Flamingo
 
@@ -68,6 +68,3 @@ ObjectDetector.ObjectDetectorOptions.builder()
     enabled, click on the green Run arrow in Android Studio.
 
 ### Models used
-
-Downloading, extraction, and placing the models into the assets folder is
-managed automatically by the download.gradle file.
