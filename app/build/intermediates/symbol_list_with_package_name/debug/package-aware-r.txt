@@ -1487,6 +1487,8 @@ id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
 id label_confidence_threshold
+id label_max_results
+id label_threads
 id labeled
 id largeLabel
 id layout
@@ -1498,8 +1500,7 @@ id linear
 id listMode
 id list_item
 id masked
-id max_results_minus
-id max_results_plus
+id max_results_slider
 id max_results_value
 id message
 id middle
@@ -1625,8 +1626,7 @@ id text_input_password_toggle
 id textinput_counter
 id textinput_error
 id textinput_helper_text
-id threads_minus
-id threads_plus
+id threads_slider
 id threads_value
 id threshold_slider
 id threshold_value

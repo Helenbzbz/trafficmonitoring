@@ -1486,6 +1486,8 @@ int id item_touch_helper_previous_elevation 0x7f0900b9
 int id jumpToEnd 0x7f0900ba
 int id jumpToStart 0x7f0900bb
 int id label_confidence_threshold 0x7f09016c
+int id label_max_results 0x7f090172
+int id label_threads 0x7f090173
 int id labeled 0x7f0900bc
 int id largeLabel 0x7f0900bd
 int id layout 0x7f0900be
@@ -1497,8 +1499,7 @@ int id linear 0x7f0900c3
 int id listMode 0x7f0900c4
 int id list_item 0x7f0900c5
 int id masked 0x7f0900c6
-int id max_results_minus 0x7f0900c7
-int id max_results_plus 0x7f0900c8
+int id max_results_slider 0x7f090174
 int id max_results_value 0x7f0900c9
 int id message 0x7f0900ca
 int id middle 0x7f0900cb
@@ -1624,8 +1625,7 @@ int id text_input_password_toggle 0x7f090141
 int id textinput_counter 0x7f090142
 int id textinput_error 0x7f090143
 int id textinput_helper_text 0x7f090144
-int id threads_minus 0x7f090145
-int id threads_plus 0x7f090146
+int id threads_slider 0x7f090175
 int id threads_value 0x7f090147
 int id threshold_slider 0x7f09016d
 int id threshold_value 0x7f09014a

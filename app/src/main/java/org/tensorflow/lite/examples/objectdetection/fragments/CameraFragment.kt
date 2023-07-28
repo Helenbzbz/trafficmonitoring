@@ -1,4 +1,6 @@
-/*
+/*Lightly modified by Sean Greene 2023 :)
+
+
  * Copyright 2022 The TensorFlow Authors. All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -125,37 +127,37 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
             }
         })
 
-        // When clicked, reduce the number of objects that can be detected at a time
-        fragmentCameraBinding.bottomSheetLayout.maxResultsMinus.setOnClickListener {
-            if (objectDetectorHelper.maxResults > 1) {
-                objectDetectorHelper.maxResults--
-                updateControlsUi()
+        //slider controls number of detectable objects
+        fragmentCameraBinding.bottomSheetLayout.maxResultsSlider.setOnSeekBarChangeListener(object: SeekBar.OnSeekBarChangeListener{
+            override fun onStartTrackingTouch(p0: SeekBar?) {
+                //not implemented
             }
-        }
 
-        // When clicked, increase the number of objects that can be detected at a time
-        fragmentCameraBinding.bottomSheetLayout.maxResultsPlus.setOnClickListener {
-            if (objectDetectorHelper.maxResults < 5) {
-                objectDetectorHelper.maxResults++
-                updateControlsUi()
+            override fun onStopTrackingTouch(p0: SeekBar?) {
+                //not implemented
             }
-        }
 
-        // When clicked, decrease the number of threads used for detection
-        fragmentCameraBinding.bottomSheetLayout.threadsMinus.setOnClickListener {
-            if (objectDetectorHelper.numThreads > 1) {
-                objectDetectorHelper.numThreads--
+            override fun onProgressChanged(seekBar: SeekBar, progress: Int, fromUser: Boolean) {
+                objectDetectorHelper.maxResults = progress
                 updateControlsUi()
             }
-        }
+        })
 
-        // When clicked, increase the number of threads used for detection
-        fragmentCameraBinding.bottomSheetLayout.threadsPlus.setOnClickListener {
-            if (objectDetectorHelper.numThreads < 4) {
-                objectDetectorHelper.numThreads++
+        //slider controls for number concurrent threads
+        fragmentCameraBinding.bottomSheetLayout.threadsSlider.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener{
+            override fun onStopTrackingTouch(p0: SeekBar?) {
+                //not implemented
+            }
+
+            override fun onStartTrackingTouch(p0: SeekBar?) {
+                //not implemented
+            }
+
+            override fun onProgressChanged(seekBar: SeekBar, progress: Int, fromUser: Boolean) {
+                objectDetectorHelper.numThreads = progress
                 updateControlsUi()
             }
-        }
+        })
 
         // When clicked, change the underlying hardware used for inference. Current options are CPU
         // GPU, and NNAPI

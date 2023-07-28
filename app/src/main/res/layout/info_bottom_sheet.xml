@@ -90,104 +90,175 @@
                 android:layout_marginTop="10dp"/>
         </RelativeLayout>
 
+
         <!-- ML max results adjustment row -->
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/bottom_sheet_default_row_margin"
-            android:gravity="center"
-            android:orientation="horizontal">
+            android:layout_marginTop="@dimen/bottom_sheet_default_row_margin">
 
             <TextView
+                android:id="@+id/label_max_results"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/label_max_results"
                 android:textSize="@dimen/bottom_sheet_text_size"
-                android:layout_centerVertical="true"
                 android:textColor="@color/bottom_sheet_text_color" />
 
-            <LinearLayout
+            <TextView
+                android:id="@+id/max_results_value"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:gravity="center"
-                android:orientation="horizontal">
-                <androidx.appcompat.widget.AppCompatImageButton
-                    android:id="@+id/max_results_minus"
-                    android:layout_width="@dimen/bottom_sheet_control_btn_size"
-                    android:layout_height="@dimen/bottom_sheet_control_btn_size"
-                    android:contentDescription="@string/alt_bottom_sheet_max_results_button_minus"
-                    android:src="@drawable/ic_minus" />
-                <TextView
-                    android:id="@+id/max_results_value"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:minEms="@integer/bottom_sheet_control_text_min_ems"
-                    android:gravity="center"
-                    android:layout_marginLeft="@dimen/bottom_sheet_control_text_side_margin"
-                    android:layout_marginRight="@dimen/bottom_sheet_control_text_side_margin"
-                    android:text="3"
-                    android:textColor="@color/bottom_sheet_text_color"
-                    android:textSize="@dimen/bottom_sheet_text_size" />
-                <androidx.appcompat.widget.AppCompatImageButton
-                    android:id="@+id/max_results_plus"
-                    android:layout_width="@dimen/bottom_sheet_control_btn_size"
-                    android:layout_height="@dimen/bottom_sheet_control_btn_size"
-                    android:contentDescription="@string/alt_bottom_sheet_max_results_button_plus"
-                    android:src="@drawable/ic_plus" />
-            </LinearLayout>
+                android:layout_below="@+id/label_max_results"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="3"
+                android:textColor="@color/bottom_sheet_text_color"
+                android:textSize="@dimen/bottom_sheet_text_size" />
+
+            <SeekBar
+                android:id="@+id/max_results_slider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="4"
+                android:progress="2"
+                android:layout_below="@+id/max_results_value"
+                android:layout_marginTop="10dp"/>
         </RelativeLayout>
 
         <!-- Number of threads adjustment row -->
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/bottom_sheet_default_row_margin"
-            android:gravity="center"
-            android:orientation="horizontal">
+            android:layout_marginTop="@dimen/bottom_sheet_default_row_margin">
 
             <TextView
+                android:id="@+id/label_threads"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/label_threads"
-                android:layout_centerVertical="true"
                 android:textSize="@dimen/bottom_sheet_text_size"
                 android:textColor="@color/bottom_sheet_text_color" />
-            <LinearLayout
+
+            <TextView
+                android:id="@+id/threads_value"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:gravity="center_vertical"
-                android:orientation="horizontal"
-                >
+                android:layout_below="@+id/label_threads"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="2"
+                android:textColor="@color/bottom_sheet_text_color"
+                android:textSize="@dimen/bottom_sheet_text_size" />
 
-                <androidx.appcompat.widget.AppCompatImageButton
-                    android:id="@+id/threads_minus"
-                    android:layout_width="@dimen/bottom_sheet_control_btn_size"
-                    android:layout_height="@dimen/bottom_sheet_control_btn_size"
-                    android:contentDescription="@string/alt_bottom_sheet_thread_button_minus"
-                    android:src="@drawable/ic_minus" />
-
-                <TextView
-                    android:id="@+id/threads_value"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/bottom_sheet_control_text_side_margin"
-                    android:layout_marginRight="@dimen/bottom_sheet_control_text_side_margin"
-                    android:gravity="center"
-                    android:minEms="@integer/bottom_sheet_control_text_min_ems"
-                    android:text="2"
-                    android:textColor="@color/bottom_sheet_text_color"
-                    android:textSize="@dimen/bottom_sheet_text_size" />
-
-                <androidx.appcompat.widget.AppCompatImageButton
-                    android:id="@+id/threads_plus"
-                    android:layout_width="@dimen/bottom_sheet_control_btn_size"
-                    android:layout_height="@dimen/bottom_sheet_control_btn_size"
-                    android:contentDescription="@string/alt_bottom_sheet_thread_button_plus"
-                    android:src="@drawable/ic_plus"  />
-            </LinearLayout>
+            <SeekBar
+                android:id="@+id/threads_slider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="4"
+                android:progress="1"
+                android:layout_below="@+id/threads_value"
+                android:layout_marginTop="10dp"/>
         </RelativeLayout>
+
+        <!--        &lt;!&ndash; ML max results adjustment row &ndash;&gt;-->
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="@dimen/bottom_sheet_default_row_margin"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/label_max_results"-->
+<!--                android:textSize="@dimen/bottom_sheet_text_size"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:textColor="@color/bottom_sheet_text_color" />-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:gravity="center"-->
+<!--                android:orientation="horizontal">-->
+<!--                <androidx.appcompat.widget.AppCompatImageButton-->
+<!--                    android:id="@+id/max_results_minus"-->
+<!--                    android:layout_width="@dimen/bottom_sheet_control_btn_size"-->
+<!--                    android:layout_height="@dimen/bottom_sheet_control_btn_size"-->
+<!--                    android:contentDescription="@string/alt_bottom_sheet_max_results_button_minus"-->
+<!--                    android:src="@drawable/ic_minus" />-->
+<!--                <TextView-->
+<!--                    android:id="@+id/max_results_value"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:minEms="@integer/bottom_sheet_control_text_min_ems"-->
+<!--                    android:gravity="center"-->
+<!--                    android:layout_marginLeft="@dimen/bottom_sheet_control_text_side_margin"-->
+<!--                    android:layout_marginRight="@dimen/bottom_sheet_control_text_side_margin"-->
+<!--                    android:text="3"-->
+<!--                    android:textColor="@color/bottom_sheet_text_color"-->
+<!--                    android:textSize="@dimen/bottom_sheet_text_size" />-->
+<!--                <androidx.appcompat.widget.AppCompatImageButton-->
+<!--                    android:id="@+id/max_results_plus"-->
+<!--                    android:layout_width="@dimen/bottom_sheet_control_btn_size"-->
+<!--                    android:layout_height="@dimen/bottom_sheet_control_btn_size"-->
+<!--                    android:contentDescription="@string/alt_bottom_sheet_max_results_button_plus"-->
+<!--                    android:src="@drawable/ic_plus" />-->
+<!--            </LinearLayout>-->
+<!--        </RelativeLayout>-->
+
+<!--        &lt;!&ndash; Number of threads adjustment row &ndash;&gt;-->
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="@dimen/bottom_sheet_default_row_margin"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/label_threads"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:textSize="@dimen/bottom_sheet_text_size"-->
+<!--                android:textColor="@color/bottom_sheet_text_color" />-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:orientation="horizontal"-->
+<!--                >-->
+
+<!--                <androidx.appcompat.widget.AppCompatImageButton-->
+<!--                    android:id="@+id/threads_minus"-->
+<!--                    android:layout_width="@dimen/bottom_sheet_control_btn_size"-->
+<!--                    android:layout_height="@dimen/bottom_sheet_control_btn_size"-->
+<!--                    android:contentDescription="@string/alt_bottom_sheet_thread_button_minus"-->
+<!--                    android:src="@drawable/ic_minus" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/threads_value"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="@dimen/bottom_sheet_control_text_side_margin"-->
+<!--                    android:layout_marginRight="@dimen/bottom_sheet_control_text_side_margin"-->
+<!--                    android:gravity="center"-->
+<!--                    android:minEms="@integer/bottom_sheet_control_text_min_ems"-->
+<!--                    android:text="2"-->
+<!--                    android:textColor="@color/bottom_sheet_text_color"-->
+<!--                    android:textSize="@dimen/bottom_sheet_text_size" />-->
+
+<!--                <androidx.appcompat.widget.AppCompatImageButton-->
+<!--                    android:id="@+id/threads_plus"-->
+<!--                    android:layout_width="@dimen/bottom_sheet_control_btn_size"-->
+<!--                    android:layout_height="@dimen/bottom_sheet_control_btn_size"-->
+<!--                    android:contentDescription="@string/alt_bottom_sheet_thread_button_plus"-->
+<!--                    android:src="@drawable/ic_plus"  />-->
+<!--            </LinearLayout>-->
+<!--        </RelativeLayout>-->
 
         <!-- Delegate selection row -->
         <RelativeLayout

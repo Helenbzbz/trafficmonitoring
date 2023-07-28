@@ -8,10 +8,6 @@
         "source": "/Users/seangreene/.gradle/daemon/7.6.2/org.tensorflow.lite.examples.objectdetection.app-main-36:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-34:/layout_activity_splash_screen.xml.flat",
-        "source": "org.tensorflow.lite.examples.objectdetection.app-main-36:/layout/activity_splash_screen.xml"
-    },
-    {
         "merged": "/Users/seangreene/.gradle/daemon/7.6.2/org.tensorflow.lite.examples.objectdetection.app-merged_res-34:/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/Users/seangreene/.gradle/daemon/7.6.2/org.tensorflow.lite.examples.objectdetection.app-main-36:/mipmap-hdpi/ic_launcher.png"
     },
@@ -50,6 +46,10 @@
     {
         "merged": "/Users/seangreene/.gradle/daemon/7.6.2/org.tensorflow.lite.examples.objectdetection.app-merged_res-34:/drawable_ic_plus.xml.flat",
         "source": "/Users/seangreene/.gradle/daemon/7.6.2/org.tensorflow.lite.examples.objectdetection.app-main-36:/drawable/ic_plus.xml"
+    },
+    {
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-34:/layout_info_bottom_sheet.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-36:/layout/info_bottom_sheet.xml"
     },
     {
         "merged": "/Users/seangreene/.gradle/daemon/7.6.2/org.tensorflow.lite.examples.objectdetection.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher.png.flat",

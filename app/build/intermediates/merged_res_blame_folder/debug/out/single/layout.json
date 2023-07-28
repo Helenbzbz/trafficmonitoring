@@ -12,11 +12,11 @@
         "source": "/Users/seangreene/.gradle/daemon/7.6.2/org.tensorflow.lite.examples.objectdetection.app-main-36:/layout/fragment_camera.xml"
     },
     {
-        "merged": "/Users/seangreene/.gradle/daemon/7.6.2/org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-33:/layout/info_bottom_sheet.xml",
-        "source": "/Users/seangreene/.gradle/daemon/7.6.2/org.tensorflow.lite.examples.objectdetection.app-main-36:/layout/info_bottom_sheet.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-33:/layout/info_bottom_sheet.xml",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-36:/layout/info_bottom_sheet.xml"
     },
     {
-        "merged": "org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-33:/layout/activity_splash_screen.xml",
-        "source": "org.tensorflow.lite.examples.objectdetection.app-main-36:/layout/activity_splash_screen.xml"
+        "merged": "/Users/seangreene/.gradle/daemon/7.6.2/org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-33:/layout/info_bottom_sheet.xml",
+        "source": "/Users/seangreene/.gradle/daemon/7.6.2/org.tensorflow.lite.examples.objectdetection.app-main-36:/layout/info_bottom_sheet.xml"
     }
 ]

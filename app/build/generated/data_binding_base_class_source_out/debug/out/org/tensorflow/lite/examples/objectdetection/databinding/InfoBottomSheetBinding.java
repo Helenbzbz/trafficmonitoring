@@ -8,7 +8,6 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.widget.AppCompatImageButton;
 import androidx.appcompat.widget.AppCompatSpinner;
 import androidx.core.widget.NestedScrollView;
 import androidx.viewbinding.ViewBinding;
@@ -35,10 +34,13 @@ public final class InfoBottomSheetBinding implements ViewBinding {
   public final TextView labelConfidenceThreshold;
 
   @NonNull
-  public final AppCompatImageButton maxResultsMinus;
+  public final TextView labelMaxResults;
 
   @NonNull
-  public final AppCompatImageButton maxResultsPlus;
+  public final TextView labelThreads;
+
+  @NonNull
+  public final SeekBar maxResultsSlider;
 
   @NonNull
   public final TextView maxResultsValue;
@@ -50,10 +52,7 @@ public final class InfoBottomSheetBinding implements ViewBinding {
   public final AppCompatSpinner spinnerModel;
 
   @NonNull
-  public final AppCompatImageButton threadsMinus;
-
-  @NonNull
-  public final AppCompatImageButton threadsPlus;
+  public final SeekBar threadsSlider;
 
   @NonNull
   public final TextView threadsValue;
@@ -67,23 +66,23 @@ public final class InfoBottomSheetBinding implements ViewBinding {
   private InfoBottomSheetBinding(@NonNull NestedScrollView rootView,
       @NonNull NestedScrollView bottomSheetLayout, @NonNull TextView inferenceTimeLabel,
       @NonNull TextView inferenceTimeVal, @NonNull TextView labelConfidenceThreshold,
-      @NonNull AppCompatImageButton maxResultsMinus, @NonNull AppCompatImageButton maxResultsPlus,
-      @NonNull TextView maxResultsValue, @NonNull AppCompatSpinner spinnerDelegate,
-      @NonNull AppCompatSpinner spinnerModel, @NonNull AppCompatImageButton threadsMinus,
-      @NonNull AppCompatImageButton threadsPlus, @NonNull TextView threadsValue,
+      @NonNull TextView labelMaxResults, @NonNull TextView labelThreads,
+      @NonNull SeekBar maxResultsSlider, @NonNull TextView maxResultsValue,
+      @NonNull AppCompatSpinner spinnerDelegate, @NonNull AppCompatSpinner spinnerModel,
+      @NonNull SeekBar threadsSlider, @NonNull TextView threadsValue,
       @NonNull SeekBar thresholdSlider, @NonNull TextView thresholdValue) {
     this.rootView = rootView;
     this.bottomSheetLayout = bottomSheetLayout;
     this.inferenceTimeLabel = inferenceTimeLabel;
     this.inferenceTimeVal = inferenceTimeVal;
     this.labelConfidenceThreshold = labelConfidenceThreshold;
-    this.maxResultsMinus = maxResultsMinus;
-    this.maxResultsPlus = maxResultsPlus;
+    this.labelMaxResults = labelMaxResults;
+    this.labelThreads = labelThreads;
+    this.maxResultsSlider = maxResultsSlider;
     this.maxResultsValue = maxResultsValue;
     this.spinnerDelegate = spinnerDelegate;
     this.spinnerModel = spinnerModel;
-    this.threadsMinus = threadsMinus;
-    this.threadsPlus = threadsPlus;
+    this.threadsSlider = threadsSlider;
     this.threadsValue = threadsValue;
     this.thresholdSlider = thresholdSlider;
     this.thresholdValue = thresholdValue;
@@ -136,15 +135,21 @@ public final class InfoBottomSheetBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.max_results_minus;
-      AppCompatImageButton maxResultsMinus = ViewBindings.findChildViewById(rootView, id);
-      if (maxResultsMinus == null) {
+      id = R.id.label_max_results;
+      TextView labelMaxResults = ViewBindings.findChildViewById(rootView, id);
+      if (labelMaxResults == null) {
         break missingId;
       }
 
-      id = R.id.max_results_plus;
-      AppCompatImageButton maxResultsPlus = ViewBindings.findChildViewById(rootView, id);
-      if (maxResultsPlus == null) {
+      id = R.id.label_threads;
+      TextView labelThreads = ViewBindings.findChildViewById(rootView, id);
+      if (labelThreads == null) {
+        break missingId;
+      }
+
+      id = R.id.max_results_slider;
+      SeekBar maxResultsSlider = ViewBindings.findChildViewById(rootView, id);
+      if (maxResultsSlider == null) {
         break missingId;
       }
 
@@ -166,15 +171,9 @@ public final class InfoBottomSheetBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.threads_minus;
-      AppCompatImageButton threadsMinus = ViewBindings.findChildViewById(rootView, id);
-      if (threadsMinus == null) {
-        break missingId;
-      }
-
-      id = R.id.threads_plus;
-      AppCompatImageButton threadsPlus = ViewBindings.findChildViewById(rootView, id);
-      if (threadsPlus == null) {
+      id = R.id.threads_slider;
+      SeekBar threadsSlider = ViewBindings.findChildViewById(rootView, id);
+      if (threadsSlider == null) {
         break missingId;
       }
 
@@ -197,9 +196,9 @@ public final class InfoBottomSheetBinding implements ViewBinding {
       }
 
       return new InfoBottomSheetBinding((NestedScrollView) rootView, bottomSheetLayout,
-          inferenceTimeLabel, inferenceTimeVal, labelConfidenceThreshold, maxResultsMinus,
-          maxResultsPlus, maxResultsValue, spinnerDelegate, spinnerModel, threadsMinus, threadsPlus,
-          threadsValue, thresholdSlider, thresholdValue);
+          inferenceTimeLabel, inferenceTimeVal, labelConfidenceThreshold, labelMaxResults,
+          labelThreads, maxResultsSlider, maxResultsValue, spinnerDelegate, spinnerModel,
+          threadsSlider, threadsValue, thresholdSlider, thresholdValue);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
