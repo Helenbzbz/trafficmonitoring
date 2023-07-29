@@ -1,0 +1,187 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="org.tensorflow.lite.examples.objectdetection"
+5    android:versionCode="1"
+6    android:versionName="1.0.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml
+11    <!-- Enable instant app support -->
+12    <dist:module dist:instant="true" /> <!-- Declare features -->
+12-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:7:5-40
+12-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:7:18-37
+13    <uses-feature android:name="android.hardware.camera" /> <!-- Declare permissions -->
+13-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:8:5-60
+13-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:8:19-57
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:9:5-65
+14-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:9:22-62
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18
+19    <application
+19-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:11:5-51:19
+20        android:allowBackup="true"
+20-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:12:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.6.0] /Users/seangreene/.gradle/caches/transforms-3/2db4c95e603a5726f8eba43ff694bfaf/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:13:9-43
+24        android:label="@string/app_name"
+24-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:14:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:15:9-54
+26        android:taskAffinity=""
+26-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:16:9-32
+27        android:testOnly="true" >
+28        <activity
+28-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:18:9-27:20
+29            android:name="org.tensorflow.lite.examples.objectdetection.SplashScreenActivity"
+29-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:19:13-49
+30            android:exported="true"
+30-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:20:13-36
+31            android:theme="@style/SplashScreenTheme" >
+31-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:21:13-53
+32            <intent-filter>
+32-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:22:13-26:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:23:17-69
+33-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:23:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:25:17-77
+35-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:25:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:28:9-50:20
+39            android:name="org.tensorflow.lite.examples.objectdetection.MainActivity"
+39-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:29:13-41
+40            android:clearTaskOnLaunch="true"
+40-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:30:13-45
+41            android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize"
+41-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:31:13-91
+42            android:exported="true"
+42-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:32:13-36
+43            android:icon="@mipmap/ic_launcher"
+43-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:33:13-47
+44            android:resizeableActivity="true"
+44-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:34:13-46
+45            android:rotationAnimation="seamless"
+45-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:35:13-49
+46            android:theme="@style/AppTheme" >
+46-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:36:13-44
+47
+48            <!-- Main app intent filter -->
+49            <intent-filter>
+49-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:22:13-26:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:23:17-69
+50-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:23:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:25:17-77
+52-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:25:27-74
+53            </intent-filter>
+54
+55            <!-- Declare notch support -->
+56            <meta-data
+56-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:47:13-49:40
+57                android:name="android.notch_support"
+57-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:48:17-53
+58                android:value="true" />
+58-->/Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:49:17-37
+59        </activity>
+60
+61        <uses-library
+61-->[androidx.window:window:1.0.0-alpha09] /Users/seangreene/.gradle/caches/transforms-3/12a91b3b43fef44c1c87b3b779fddf6b/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:25:9-27:40
+62            android:name="androidx.window.extensions"
+62-->[androidx.window:window:1.0.0-alpha09] /Users/seangreene/.gradle/caches/transforms-3/12a91b3b43fef44c1c87b3b779fddf6b/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:26:13-54
+63            android:required="false" />
+63-->[androidx.window:window:1.0.0-alpha09] /Users/seangreene/.gradle/caches/transforms-3/12a91b3b43fef44c1c87b3b779fddf6b/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:27:13-37
+64        <uses-library
+64-->[androidx.window:window:1.0.0-alpha09] /Users/seangreene/.gradle/caches/transforms-3/12a91b3b43fef44c1c87b3b779fddf6b/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:28:9-30:40
+65            android:name="androidx.window.sidecar"
+65-->[androidx.window:window:1.0.0-alpha09] /Users/seangreene/.gradle/caches/transforms-3/12a91b3b43fef44c1c87b3b779fddf6b/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:29:13-51
+66            android:required="false" />
+66-->[androidx.window:window:1.0.0-alpha09] /Users/seangreene/.gradle/caches/transforms-3/12a91b3b43fef44c1c87b3b779fddf6b/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:30:13-37
+67
+68        <service
+68-->[androidx.camera:camera-camera2:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/39853141c15ddd145441128d6606dda4/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:26:9-35:19
+69            android:name="androidx.camera.core.impl.MetadataHolderService"
+69-->[androidx.camera:camera-camera2:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/39853141c15ddd145441128d6606dda4/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:27:13-75
+70            android:enabled="false"
+70-->[androidx.camera:camera-camera2:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/39853141c15ddd145441128d6606dda4/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:28:13-36
+71            android:exported="false" >
+71-->[androidx.camera:camera-camera2:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/39853141c15ddd145441128d6606dda4/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:29:13-37
+72            <meta-data
+72-->[androidx.camera:camera-camera2:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/39853141c15ddd145441128d6606dda4/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:32:13-34:89
+73                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+73-->[androidx.camera:camera-camera2:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/39853141c15ddd145441128d6606dda4/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:33:17-103
+74                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+74-->[androidx.camera:camera-camera2:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/39853141c15ddd145441128d6606dda4/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:34:17-86
+75        </service>
+76        <service
+76-->[com.google.android.gms:play-services-tflite-gpu:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/f7a4206043c1922aa5f5e782401254d5/transformed/jetified-play-services-tflite-gpu-16.0.0/AndroidManifest.xml:9:9-21:19
+77            android:name="com.google.android.gms.metadata.ModuleDependencies"
+77-->[com.google.android.gms:play-services-tflite-gpu:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/f7a4206043c1922aa5f5e782401254d5/transformed/jetified-play-services-tflite-gpu-16.0.0/AndroidManifest.xml:10:13-78
+78            android:enabled="false"
+78-->[com.google.android.gms:play-services-tflite-gpu:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/f7a4206043c1922aa5f5e782401254d5/transformed/jetified-play-services-tflite-gpu-16.0.0/AndroidManifest.xml:11:13-36
+79            android:exported="false" >
+79-->[com.google.android.gms:play-services-tflite-gpu:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/f7a4206043c1922aa5f5e782401254d5/transformed/jetified-play-services-tflite-gpu-16.0.0/AndroidManifest.xml:12:13-37
+80            <intent-filter>
+80-->[com.google.android.gms:play-services-tflite-gpu:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/f7a4206043c1922aa5f5e782401254d5/transformed/jetified-play-services-tflite-gpu-16.0.0/AndroidManifest.xml:14:13-16:29
+81                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+81-->[com.google.android.gms:play-services-tflite-gpu:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/f7a4206043c1922aa5f5e782401254d5/transformed/jetified-play-services-tflite-gpu-16.0.0/AndroidManifest.xml:15:17-94
+81-->[com.google.android.gms:play-services-tflite-gpu:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/f7a4206043c1922aa5f5e782401254d5/transformed/jetified-play-services-tflite-gpu-16.0.0/AndroidManifest.xml:15:25-91
+82            </intent-filter>
+83
+84            <meta-data
+84-->[com.google.android.gms:play-services-tflite-gpu:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/f7a4206043c1922aa5f5e782401254d5/transformed/jetified-play-services-tflite-gpu-16.0.0/AndroidManifest.xml:18:13-20:36
+85                android:name="tflite_gpu_dynamite:222612000:required"
+85-->[com.google.android.gms:play-services-tflite-gpu:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/f7a4206043c1922aa5f5e782401254d5/transformed/jetified-play-services-tflite-gpu-16.0.0/AndroidManifest.xml:19:17-70
+86                android:value="" />
+86-->[com.google.android.gms:play-services-tflite-gpu:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/f7a4206043c1922aa5f5e782401254d5/transformed/jetified-play-services-tflite-gpu-16.0.0/AndroidManifest.xml:20:17-33
+87            <meta-data
+87-->[com.google.android.gms:play-services-tflite-impl:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/519310e2c20ee6a3e8b9184e09800a73/transformed/jetified-play-services-tflite-impl-16.0.0/AndroidManifest.xml:18:13-20:36
+88                android:name="tflite_dynamite:3:required"
+88-->[com.google.android.gms:play-services-tflite-impl:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/519310e2c20ee6a3e8b9184e09800a73/transformed/jetified-play-services-tflite-impl-16.0.0/AndroidManifest.xml:19:17-58
+89                android:value="" />
+89-->[com.google.android.gms:play-services-tflite-impl:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/519310e2c20ee6a3e8b9184e09800a73/transformed/jetified-play-services-tflite-impl-16.0.0/AndroidManifest.xml:20:17-33
+90        </service>
+91
+92        <activity
+92-->[com.google.android.gms:play-services-base:18.1.0] /Users/seangreene/.gradle/caches/transforms-3/a1e90883af87b628985714731eaed4dd/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+93            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+93-->[com.google.android.gms:play-services-base:18.1.0] /Users/seangreene/.gradle/caches/transforms-3/a1e90883af87b628985714731eaed4dd/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+94            android:exported="false"
+94-->[com.google.android.gms:play-services-base:18.1.0] /Users/seangreene/.gradle/caches/transforms-3/a1e90883af87b628985714731eaed4dd/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+95            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+95-->[com.google.android.gms:play-services-base:18.1.0] /Users/seangreene/.gradle/caches/transforms-3/a1e90883af87b628985714731eaed4dd/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+96
+97        <meta-data
+97-->[com.google.android.gms:play-services-basement:18.1.0] /Users/seangreene/.gradle/caches/transforms-3/1c50738130f4901d6e2b14a9d7e32daa/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+98            android:name="com.google.android.gms.version"
+98-->[com.google.android.gms:play-services-basement:18.1.0] /Users/seangreene/.gradle/caches/transforms-3/1c50738130f4901d6e2b14a9d7e32daa/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+99            android:value="@integer/google_play_services_version" />
+99-->[com.google.android.gms:play-services-basement:18.1.0] /Users/seangreene/.gradle/caches/transforms-3/1c50738130f4901d6e2b14a9d7e32daa/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+100
+101        <provider
+101-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/seangreene/.gradle/caches/transforms-3/19cbf5ae27963c9f6fd5db576d154aba/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+102            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+102-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/seangreene/.gradle/caches/transforms-3/19cbf5ae27963c9f6fd5db576d154aba/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+103            android:authorities="org.tensorflow.lite.examples.objectdetection.lifecycle-process"
+103-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/seangreene/.gradle/caches/transforms-3/19cbf5ae27963c9f6fd5db576d154aba/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+104            android:exported="false"
+104-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/seangreene/.gradle/caches/transforms-3/19cbf5ae27963c9f6fd5db576d154aba/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+105            android:multiprocess="true" />
+105-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/seangreene/.gradle/caches/transforms-3/19cbf5ae27963c9f6fd5db576d154aba/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+106    </application>
+107
+108</manifest>

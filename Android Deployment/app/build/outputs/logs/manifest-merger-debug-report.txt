@@ -1,0 +1,467 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:2:1-53:12
+MERGED from [androidx.databinding:databinding-adapters:7.2.1] /Users/seangreene/.gradle/caches/transforms-3/332646fcc3f2dfc0e44f07d6dcf6985d/transformed/databinding-adapters-7.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-ktx:7.2.1] /Users/seangreene/.gradle/caches/transforms-3/8ef3f8c1fdfd86646abad2fcc310a458/transformed/jetified-databinding-ktx-7.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:7.2.1] /Users/seangreene/.gradle/caches/transforms-3/deb7d90de55655a1f911baaa4023f361/transformed/databinding-runtime-7.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:viewbinding:7.2.1] /Users/seangreene/.gradle/caches/transforms-3/8f5a07077c654cf3cdbc3d2d1638badf/transformed/jetified-viewbinding-7.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /Users/seangreene/.gradle/caches/transforms-3/181bf5059ea9a58afd18a213d899107d/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/seangreene/.gradle/caches/transforms-3/bcd13c2c62b61f59da2bf477ff9be9f2/transformed/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /Users/seangreene/.gradle/caches/transforms-3/d0700f403b73c624bca0d3275ebe06f6/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /Users/seangreene/.gradle/caches/transforms-3/e92b65872579bde6e89cf310e62c3a70/transformed/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /Users/seangreene/.gradle/caches/transforms-3/2e1ac321b71eff7bca509a93c6d348c0/transformed/navigation-common-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/seangreene/.gradle/caches/transforms-3/67fb61f2ca9ec9eb67773eef1ae7babe/transformed/jetified-activity-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/seangreene/.gradle/caches/transforms-3/acfd87041feb3c96e07ad5e91bf3f3ee/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/seangreene/.gradle/caches/transforms-3/6b64595babcddbe2ea83d5f559808118/transformed/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0-alpha09] /Users/seangreene/.gradle/caches/transforms-3/12a91b3b43fef44c1c87b3b779fddf6b/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/seangreene/.gradle/caches/transforms-3/908495511f7a490a9637ba1f26c6de1c/transformed/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/seangreene/.gradle/caches/transforms-3/4e1ddbb121661d65ab35bc656229df98/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/seangreene/.gradle/caches/transforms-3/a838994e0492739072cbe400774386a4/transformed/navigation-ui-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/a755e22bd8f14cbb2c853d792887e39f/transformed/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-view:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/80001f90141037b4278f5c1c3827df90/transformed/jetified-camera-view-1.1.0-beta03/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/seangreene/.gradle/caches/transforms-3/460455b6b597b55bb922e7b5c3ee9572/transformed/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/5d130860f62dd64afd0e0aa606d80443/transformed/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/e2913943025e5027a9980da0fde0d71a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/d419209c0ecab2ebea90a49cb6ee73a9/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/edc9d81ab2f444bc45a27aae0dff5740/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.camera:camera-camera2:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/39853141c15ddd145441128d6606dda4/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:17:1-38:12
+MERGED from [androidx.camera:camera-lifecycle:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/f360ab10b6989a2d5a729a108fcd6ab3/transformed/jetified-camera-lifecycle-1.1.0-beta03/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-core:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/65484fac769e295c4dc9a4c8c2163146/transformed/jetified-camera-core-1.1.0-beta03/AndroidManifest.xml:17:1-38:12
+MERGED from [org.tensorflow:tensorflow-lite-task-vision-play-services:0.4.2] /Users/seangreene/.gradle/caches/transforms-3/3b5e42dffd57ad768400332444ec9d5f/transformed/jetified-tensorflow-lite-task-vision-play-services-0.4.2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tflite-gpu:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/f7a4206043c1922aa5f5e782401254d5/transformed/jetified-play-services-tflite-gpu-16.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/seangreene/.gradle/caches/transforms-3/3c8847fed67e38b096a68c3c192c5185/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tflite-support:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/a45e76eb228bcfa9e1f698640ca0860b/transformed/jetified-play-services-tflite-support-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tflite-java:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/19d7374dd9538ddd97f4c117014d50a7/transformed/jetified-play-services-tflite-java-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tflite-impl:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/519310e2c20ee6a3e8b9184e09800a73/transformed/jetified-play-services-tflite-impl-16.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/seangreene/.gradle/caches/transforms-3/a1e90883af87b628985714731eaed4dd/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/seangreene/.gradle/caches/transforms-3/0c4ab1e4f721ee2c790f2189c38d8af2/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/seangreene/.gradle/caches/transforms-3/1c50738130f4901d6e2b14a9d7e32daa/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/seangreene/.gradle/caches/transforms-3/f04c7bb3ddbaa7717943b0d9d10448d3/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /Users/seangreene/.gradle/caches/transforms-3/67469498b5ea5104c60050a0efec245a/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/seangreene/.gradle/caches/transforms-3/46f66b4a8081ab26cbfa7f8d67f46372/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/seangreene/.gradle/caches/transforms-3/c859dd5a1bcba8e3bef77017050b8bc6/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/b00b91179ca8a07ff82f91688f26b202/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/942ce444e51c8b1aef6ecd4bcdc25c72/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/seangreene/.gradle/caches/transforms-3/2c54b9c6e7eec18b83e51dd94f335cdd/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/seangreene/.gradle/caches/transforms-3/663cb1160c47eee902303599830783fb/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/e2b5e0a53570ebca4b86ec0802b73a73/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/e029f808ce738786ed1783a1bdc4ecc3/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/fc3f3c9370ecc9ffe3c85845861ab363/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/2a10050166a393be6ffc73a19dde8715/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/seangreene/.gradle/caches/transforms-3/d8485f7bae43149c79aea41a816568be/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/seangreene/.gradle/caches/transforms-3/729c78cb14f28ddbc77828fd7bfc1e03/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /Users/seangreene/.gradle/caches/transforms-3/669bca5914341a6f1b526ff102c58230/transformed/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] /Users/seangreene/.gradle/caches/transforms-3/cee22f9fbd9a78391d4686c4e21cef79/transformed/navigation-common-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.6.0] /Users/seangreene/.gradle/caches/transforms-3/2db4c95e603a5726f8eba43ff694bfaf/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/seangreene/.gradle/caches/transforms-3/19cbf5ae27963c9f6fd5db576d154aba/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/seangreene/.gradle/caches/transforms-3/f2380d162e30b670efa7f735d51da938/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/seangreene/.gradle/caches/transforms-3/7ce620232c37e92062c98fb9a1264c96/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/seangreene/.gradle/caches/transforms-3/79c69bfed65c60d581aca820b62b934d/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/seangreene/.gradle/caches/transforms-3/d40e4c6d23c7deccf58ac49c931f3a8b/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/4ab7c778325ff86864e77f618366717e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/seangreene/.gradle/caches/transforms-3/72e4a34f0fbf741a00edfa450a9c3b66/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/4fe13020c8854c42e41759cb18aabbf8/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/seangreene/.gradle/caches/transforms-3/515eded6257501e779aab7ec6441d5fa/transformed/exifinterface-1.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/seangreene/.gradle/caches/transforms-3/5567d786b19d2aed95bd1a94b221dca1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/seangreene/.gradle/caches/transforms-3/0dbcef07bb172a5f76d89254d43ebd60/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/seangreene/.gradle/caches/transforms-3/d364e207b0175b155585da97f6b18605/transformed/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/seangreene/.gradle/caches/transforms-3/b12f0785f206522b9d4f2664712e8074/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/seangreene/.gradle/caches/transforms-3/2b5e46998ed093eaf353996aa6004bd5/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/6b846bb952253138cb081ee0a99d6453/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/44830e79cd881a88dd0c9355ff91e8b3/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/cf6c89fee34628f100d24e1842575a9d/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/17737f7efd99b972c34ad77242ffe276/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/seangreene/.gradle/caches/transforms-3/dd70b3fbe378b4767a7c0a4a7cc14109/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [org.tensorflow:tensorflow-lite-support-api:0.4.2] /Users/seangreene/.gradle/caches/transforms-3/d0094b2c07db13c54fed0cb164766729/transformed/jetified-tensorflow-lite-support-api-0.4.2/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/seangreene/.gradle/caches/transforms-3/348321d9e2b63285e18851317ade3215/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:2:1-9:12
+MERGED from [org.tensorflow:tensorflow-lite-api:2.10.0] /Users/seangreene/.gradle/caches/transforms-3/63d5eae9c3290a1d06e53a22d6e6948f/transformed/jetified-tensorflow-lite-api-2.10.0/AndroidManifest.xml:2:1-12:12
+MERGED from [org.tensorflow:tensorflow-lite-task-base:0.4.2] /Users/seangreene/.gradle/caches/transforms-3/f7708bd2f856142fae0b0d8274d6743c/transformed/jetified-tensorflow-lite-task-base-0.4.2/AndroidManifest.xml:2:1-6:12
+MERGED from [org.tensorflow:tensorflow-lite-gpu-api:2.10.0] /Users/seangreene/.gradle/caches/transforms-3/242966fd6b19c339dbe698c4fab2a8d5/transformed/jetified-tensorflow-lite-gpu-api-2.10.0/AndroidManifest.xml:2:1-12:12
+INJECTED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:2:1-53:12
+	package
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:5:5-59
+		INJECTED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:2:1-53:12
+		INJECTED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:4:5-51
+	xmlns:dist
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:3:5-61
+	android:versionCode
+		INJECTED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:2:1-53:12
+		INJECTED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:2:11-69
+dist:module
+ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:7:5-40
+	dist:instant
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:7:18-37
+uses-feature#android.hardware.camera
+ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:8:5-60
+	android:name
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:8:19-57
+uses-permission#android.permission.CAMERA
+ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:9:22-62
+application
+ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:11:5-51:19
+MERGED from [androidx.window:window:1.0.0-alpha09] /Users/seangreene/.gradle/caches/transforms-3/12a91b3b43fef44c1c87b3b779fddf6b/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-alpha09] /Users/seangreene/.gradle/caches/transforms-3/12a91b3b43fef44c1c87b3b779fddf6b/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/seangreene/.gradle/caches/transforms-3/4e1ddbb121661d65ab35bc656229df98/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/seangreene/.gradle/caches/transforms-3/4e1ddbb121661d65ab35bc656229df98/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/a755e22bd8f14cbb2c853d792887e39f/transformed/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/a755e22bd8f14cbb2c853d792887e39f/transformed/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.camera:camera-camera2:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/39853141c15ddd145441128d6606dda4/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:25:5-36:19
+MERGED from [androidx.camera:camera-camera2:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/39853141c15ddd145441128d6606dda4/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:25:5-36:19
+MERGED from [androidx.camera:camera-core:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/65484fac769e295c4dc9a4c8c2163146/transformed/jetified-camera-core-1.1.0-beta03/AndroidManifest.xml:25:5-36:19
+MERGED from [androidx.camera:camera-core:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/65484fac769e295c4dc9a4c8c2163146/transformed/jetified-camera-core-1.1.0-beta03/AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.android.gms:play-services-tflite-gpu:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/f7a4206043c1922aa5f5e782401254d5/transformed/jetified-play-services-tflite-gpu-16.0.0/AndroidManifest.xml:8:5-22:19
+MERGED from [com.google.android.gms:play-services-tflite-gpu:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/f7a4206043c1922aa5f5e782401254d5/transformed/jetified-play-services-tflite-gpu-16.0.0/AndroidManifest.xml:8:5-22:19
+MERGED from [com.google.android.gms:play-services-tflite-impl:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/519310e2c20ee6a3e8b9184e09800a73/transformed/jetified-play-services-tflite-impl-16.0.0/AndroidManifest.xml:8:5-22:19
+MERGED from [com.google.android.gms:play-services-tflite-impl:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/519310e2c20ee6a3e8b9184e09800a73/transformed/jetified-play-services-tflite-impl-16.0.0/AndroidManifest.xml:8:5-22:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/seangreene/.gradle/caches/transforms-3/a1e90883af87b628985714731eaed4dd/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/seangreene/.gradle/caches/transforms-3/a1e90883af87b628985714731eaed4dd/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/seangreene/.gradle/caches/transforms-3/0c4ab1e4f721ee2c790f2189c38d8af2/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/seangreene/.gradle/caches/transforms-3/0c4ab1e4f721ee2c790f2189c38d8af2/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/seangreene/.gradle/caches/transforms-3/1c50738130f4901d6e2b14a9d7e32daa/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/seangreene/.gradle/caches/transforms-3/1c50738130f4901d6e2b14a9d7e32daa/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.6.0] /Users/seangreene/.gradle/caches/transforms-3/2db4c95e603a5726f8eba43ff694bfaf/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/seangreene/.gradle/caches/transforms-3/2db4c95e603a5726f8eba43ff694bfaf/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/seangreene/.gradle/caches/transforms-3/19cbf5ae27963c9f6fd5db576d154aba/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/seangreene/.gradle/caches/transforms-3/19cbf5ae27963c9f6fd5db576d154aba/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/seangreene/.gradle/caches/transforms-3/5567d786b19d2aed95bd1a94b221dca1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/seangreene/.gradle/caches/transforms-3/5567d786b19d2aed95bd1a94b221dca1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/seangreene/.gradle/caches/transforms-3/348321d9e2b63285e18851317ade3215/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/seangreene/.gradle/caches/transforms-3/348321d9e2b63285e18851317ade3215/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:7:5-20
+MERGED from [org.tensorflow:tensorflow-lite-api:2.10.0] /Users/seangreene/.gradle/caches/transforms-3/63d5eae9c3290a1d06e53a22d6e6948f/transformed/jetified-tensorflow-lite-api-2.10.0/AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite-api:2.10.0] /Users/seangreene/.gradle/caches/transforms-3/63d5eae9c3290a1d06e53a22d6e6948f/transformed/jetified-tensorflow-lite-api-2.10.0/AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite-task-base:0.4.2] /Users/seangreene/.gradle/caches/transforms-3/f7708bd2f856142fae0b0d8274d6743c/transformed/jetified-tensorflow-lite-task-base-0.4.2/AndroidManifest.xml:4:4-5:18
+MERGED from [org.tensorflow:tensorflow-lite-task-base:0.4.2] /Users/seangreene/.gradle/caches/transforms-3/f7708bd2f856142fae0b0d8274d6743c/transformed/jetified-tensorflow-lite-task-base-0.4.2/AndroidManifest.xml:4:4-5:18
+MERGED from [org.tensorflow:tensorflow-lite-gpu-api:2.10.0] /Users/seangreene/.gradle/caches/transforms-3/242966fd6b19c339dbe698c4fab2a8d5/transformed/jetified-tensorflow-lite-gpu-api-2.10.0/AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite-gpu-api:2.10.0] /Users/seangreene/.gradle/caches/transforms-3/242966fd6b19c339dbe698c4fab2a8d5/transformed/jetified-tensorflow-lite-gpu-api-2.10.0/AndroidManifest.xml:10:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/seangreene/.gradle/caches/transforms-3/2db4c95e603a5726f8eba43ff694bfaf/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:14:9-41
+	tools:ignore
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:17:9-35
+	android:roundIcon
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:15:9-54
+	android:icon
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:12:9-35
+	android:taskAffinity
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:16:9-32
+activity#org.tensorflow.lite.examples.objectdetection.SplashScreenActivity
+ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:18:9-27:20
+	android:exported
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:20:13-36
+	android:theme
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:21:13-53
+	android:name
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:19:13-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:25:27-74
+activity#org.tensorflow.lite.examples.objectdetection.MainActivity
+ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:28:9-50:20
+	android:clearTaskOnLaunch
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:30:13-45
+	android:exported
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:32:13-36
+	android:resizeableActivity
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:34:13-46
+	android:rotationAnimation
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:35:13-49
+	android:configChanges
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:31:13-91
+	tools:targetApi
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:37:13-32
+	android:icon
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:33:13-47
+	android:theme
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:29:13-41
+meta-data#android.notch_support
+ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:47:13-49:40
+	android:value
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:49:17-37
+	android:name
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:48:17-53
+uses-sdk
+INJECTED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml
+INJECTED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:7.2.1] /Users/seangreene/.gradle/caches/transforms-3/332646fcc3f2dfc0e44f07d6dcf6985d/transformed/databinding-adapters-7.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-adapters:7.2.1] /Users/seangreene/.gradle/caches/transforms-3/332646fcc3f2dfc0e44f07d6dcf6985d/transformed/databinding-adapters-7.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-ktx:7.2.1] /Users/seangreene/.gradle/caches/transforms-3/8ef3f8c1fdfd86646abad2fcc310a458/transformed/jetified-databinding-ktx-7.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-ktx:7.2.1] /Users/seangreene/.gradle/caches/transforms-3/8ef3f8c1fdfd86646abad2fcc310a458/transformed/jetified-databinding-ktx-7.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-runtime:7.2.1] /Users/seangreene/.gradle/caches/transforms-3/deb7d90de55655a1f911baaa4023f361/transformed/databinding-runtime-7.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-runtime:7.2.1] /Users/seangreene/.gradle/caches/transforms-3/deb7d90de55655a1f911baaa4023f361/transformed/databinding-runtime-7.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.2.1] /Users/seangreene/.gradle/caches/transforms-3/8f5a07077c654cf3cdbc3d2d1638badf/transformed/jetified-viewbinding-7.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.2.1] /Users/seangreene/.gradle/caches/transforms-3/8f5a07077c654cf3cdbc3d2d1638badf/transformed/jetified-viewbinding-7.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /Users/seangreene/.gradle/caches/transforms-3/181bf5059ea9a58afd18a213d899107d/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /Users/seangreene/.gradle/caches/transforms-3/181bf5059ea9a58afd18a213d899107d/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/seangreene/.gradle/caches/transforms-3/bcd13c2c62b61f59da2bf477ff9be9f2/transformed/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/seangreene/.gradle/caches/transforms-3/bcd13c2c62b61f59da2bf477ff9be9f2/transformed/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /Users/seangreene/.gradle/caches/transforms-3/d0700f403b73c624bca0d3275ebe06f6/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /Users/seangreene/.gradle/caches/transforms-3/d0700f403b73c624bca0d3275ebe06f6/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /Users/seangreene/.gradle/caches/transforms-3/e92b65872579bde6e89cf310e62c3a70/transformed/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /Users/seangreene/.gradle/caches/transforms-3/e92b65872579bde6e89cf310e62c3a70/transformed/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /Users/seangreene/.gradle/caches/transforms-3/2e1ac321b71eff7bca509a93c6d348c0/transformed/navigation-common-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /Users/seangreene/.gradle/caches/transforms-3/2e1ac321b71eff7bca509a93c6d348c0/transformed/navigation-common-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/seangreene/.gradle/caches/transforms-3/67fb61f2ca9ec9eb67773eef1ae7babe/transformed/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/seangreene/.gradle/caches/transforms-3/67fb61f2ca9ec9eb67773eef1ae7babe/transformed/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/seangreene/.gradle/caches/transforms-3/acfd87041feb3c96e07ad5e91bf3f3ee/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/seangreene/.gradle/caches/transforms-3/acfd87041feb3c96e07ad5e91bf3f3ee/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/seangreene/.gradle/caches/transforms-3/6b64595babcddbe2ea83d5f559808118/transformed/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/seangreene/.gradle/caches/transforms-3/6b64595babcddbe2ea83d5f559808118/transformed/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-alpha09] /Users/seangreene/.gradle/caches/transforms-3/12a91b3b43fef44c1c87b3b779fddf6b/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-alpha09] /Users/seangreene/.gradle/caches/transforms-3/12a91b3b43fef44c1c87b3b779fddf6b/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/seangreene/.gradle/caches/transforms-3/908495511f7a490a9637ba1f26c6de1c/transformed/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/seangreene/.gradle/caches/transforms-3/908495511f7a490a9637ba1f26c6de1c/transformed/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/seangreene/.gradle/caches/transforms-3/4e1ddbb121661d65ab35bc656229df98/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/seangreene/.gradle/caches/transforms-3/4e1ddbb121661d65ab35bc656229df98/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/seangreene/.gradle/caches/transforms-3/a838994e0492739072cbe400774386a4/transformed/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/seangreene/.gradle/caches/transforms-3/a838994e0492739072cbe400774386a4/transformed/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/a755e22bd8f14cbb2c853d792887e39f/transformed/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/a755e22bd8f14cbb2c853d792887e39f/transformed/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-view:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/80001f90141037b4278f5c1c3827df90/transformed/jetified-camera-view-1.1.0-beta03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-view:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/80001f90141037b4278f5c1c3827df90/transformed/jetified-camera-view-1.1.0-beta03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/seangreene/.gradle/caches/transforms-3/460455b6b597b55bb922e7b5c3ee9572/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/seangreene/.gradle/caches/transforms-3/460455b6b597b55bb922e7b5c3ee9572/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/5d130860f62dd64afd0e0aa606d80443/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/5d130860f62dd64afd0e0aa606d80443/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/e2913943025e5027a9980da0fde0d71a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/e2913943025e5027a9980da0fde0d71a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/d419209c0ecab2ebea90a49cb6ee73a9/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/d419209c0ecab2ebea90a49cb6ee73a9/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/edc9d81ab2f444bc45a27aae0dff5740/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/edc9d81ab2f444bc45a27aae0dff5740/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-camera2:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/39853141c15ddd145441128d6606dda4/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.camera:camera-camera2:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/39853141c15ddd145441128d6606dda4/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.camera:camera-lifecycle:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/f360ab10b6989a2d5a729a108fcd6ab3/transformed/jetified-camera-lifecycle-1.1.0-beta03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-lifecycle:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/f360ab10b6989a2d5a729a108fcd6ab3/transformed/jetified-camera-lifecycle-1.1.0-beta03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/65484fac769e295c4dc9a4c8c2163146/transformed/jetified-camera-core-1.1.0-beta03/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.camera:camera-core:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/65484fac769e295c4dc9a4c8c2163146/transformed/jetified-camera-core-1.1.0-beta03/AndroidManifest.xml:21:5-23:41
+MERGED from [org.tensorflow:tensorflow-lite-task-vision-play-services:0.4.2] /Users/seangreene/.gradle/caches/transforms-3/3b5e42dffd57ad768400332444ec9d5f/transformed/jetified-tensorflow-lite-task-vision-play-services-0.4.2/AndroidManifest.xml:5:5-44
+MERGED from [org.tensorflow:tensorflow-lite-task-vision-play-services:0.4.2] /Users/seangreene/.gradle/caches/transforms-3/3b5e42dffd57ad768400332444ec9d5f/transformed/jetified-tensorflow-lite-task-vision-play-services-0.4.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tflite-gpu:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/f7a4206043c1922aa5f5e782401254d5/transformed/jetified-play-services-tflite-gpu-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-tflite-gpu:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/f7a4206043c1922aa5f5e782401254d5/transformed/jetified-play-services-tflite-gpu-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/seangreene/.gradle/caches/transforms-3/3c8847fed67e38b096a68c3c192c5185/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/seangreene/.gradle/caches/transforms-3/3c8847fed67e38b096a68c3c192c5185/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tflite-support:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/a45e76eb228bcfa9e1f698640ca0860b/transformed/jetified-play-services-tflite-support-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tflite-support:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/a45e76eb228bcfa9e1f698640ca0860b/transformed/jetified-play-services-tflite-support-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tflite-java:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/19d7374dd9538ddd97f4c117014d50a7/transformed/jetified-play-services-tflite-java-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tflite-java:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/19d7374dd9538ddd97f4c117014d50a7/transformed/jetified-play-services-tflite-java-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tflite-impl:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/519310e2c20ee6a3e8b9184e09800a73/transformed/jetified-play-services-tflite-impl-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-tflite-impl:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/519310e2c20ee6a3e8b9184e09800a73/transformed/jetified-play-services-tflite-impl-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/seangreene/.gradle/caches/transforms-3/a1e90883af87b628985714731eaed4dd/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/seangreene/.gradle/caches/transforms-3/a1e90883af87b628985714731eaed4dd/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/seangreene/.gradle/caches/transforms-3/0c4ab1e4f721ee2c790f2189c38d8af2/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/seangreene/.gradle/caches/transforms-3/0c4ab1e4f721ee2c790f2189c38d8af2/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/seangreene/.gradle/caches/transforms-3/1c50738130f4901d6e2b14a9d7e32daa/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/seangreene/.gradle/caches/transforms-3/1c50738130f4901d6e2b14a9d7e32daa/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/seangreene/.gradle/caches/transforms-3/f04c7bb3ddbaa7717943b0d9d10448d3/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/seangreene/.gradle/caches/transforms-3/f04c7bb3ddbaa7717943b0d9d10448d3/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /Users/seangreene/.gradle/caches/transforms-3/67469498b5ea5104c60050a0efec245a/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /Users/seangreene/.gradle/caches/transforms-3/67469498b5ea5104c60050a0efec245a/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/seangreene/.gradle/caches/transforms-3/46f66b4a8081ab26cbfa7f8d67f46372/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/seangreene/.gradle/caches/transforms-3/46f66b4a8081ab26cbfa7f8d67f46372/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/seangreene/.gradle/caches/transforms-3/c859dd5a1bcba8e3bef77017050b8bc6/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/seangreene/.gradle/caches/transforms-3/c859dd5a1bcba8e3bef77017050b8bc6/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/b00b91179ca8a07ff82f91688f26b202/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/b00b91179ca8a07ff82f91688f26b202/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/942ce444e51c8b1aef6ecd4bcdc25c72/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/942ce444e51c8b1aef6ecd4bcdc25c72/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/seangreene/.gradle/caches/transforms-3/2c54b9c6e7eec18b83e51dd94f335cdd/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/seangreene/.gradle/caches/transforms-3/2c54b9c6e7eec18b83e51dd94f335cdd/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/seangreene/.gradle/caches/transforms-3/663cb1160c47eee902303599830783fb/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/seangreene/.gradle/caches/transforms-3/663cb1160c47eee902303599830783fb/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/e2b5e0a53570ebca4b86ec0802b73a73/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/e2b5e0a53570ebca4b86ec0802b73a73/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/e029f808ce738786ed1783a1bdc4ecc3/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/e029f808ce738786ed1783a1bdc4ecc3/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/fc3f3c9370ecc9ffe3c85845861ab363/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/fc3f3c9370ecc9ffe3c85845861ab363/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/2a10050166a393be6ffc73a19dde8715/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/2a10050166a393be6ffc73a19dde8715/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/seangreene/.gradle/caches/transforms-3/d8485f7bae43149c79aea41a816568be/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/seangreene/.gradle/caches/transforms-3/d8485f7bae43149c79aea41a816568be/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/seangreene/.gradle/caches/transforms-3/729c78cb14f28ddbc77828fd7bfc1e03/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/seangreene/.gradle/caches/transforms-3/729c78cb14f28ddbc77828fd7bfc1e03/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/seangreene/.gradle/caches/transforms-3/669bca5914341a6f1b526ff102c58230/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/seangreene/.gradle/caches/transforms-3/669bca5914341a6f1b526ff102c58230/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] /Users/seangreene/.gradle/caches/transforms-3/cee22f9fbd9a78391d4686c4e21cef79/transformed/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] /Users/seangreene/.gradle/caches/transforms-3/cee22f9fbd9a78391d4686c4e21cef79/transformed/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/seangreene/.gradle/caches/transforms-3/2db4c95e603a5726f8eba43ff694bfaf/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/seangreene/.gradle/caches/transforms-3/2db4c95e603a5726f8eba43ff694bfaf/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/seangreene/.gradle/caches/transforms-3/19cbf5ae27963c9f6fd5db576d154aba/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/seangreene/.gradle/caches/transforms-3/19cbf5ae27963c9f6fd5db576d154aba/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/seangreene/.gradle/caches/transforms-3/f2380d162e30b670efa7f735d51da938/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/seangreene/.gradle/caches/transforms-3/f2380d162e30b670efa7f735d51da938/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/seangreene/.gradle/caches/transforms-3/7ce620232c37e92062c98fb9a1264c96/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/seangreene/.gradle/caches/transforms-3/7ce620232c37e92062c98fb9a1264c96/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/seangreene/.gradle/caches/transforms-3/79c69bfed65c60d581aca820b62b934d/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/seangreene/.gradle/caches/transforms-3/79c69bfed65c60d581aca820b62b934d/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/seangreene/.gradle/caches/transforms-3/d40e4c6d23c7deccf58ac49c931f3a8b/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/seangreene/.gradle/caches/transforms-3/d40e4c6d23c7deccf58ac49c931f3a8b/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/4ab7c778325ff86864e77f618366717e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/4ab7c778325ff86864e77f618366717e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/seangreene/.gradle/caches/transforms-3/72e4a34f0fbf741a00edfa450a9c3b66/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/seangreene/.gradle/caches/transforms-3/72e4a34f0fbf741a00edfa450a9c3b66/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/4fe13020c8854c42e41759cb18aabbf8/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/4fe13020c8854c42e41759cb18aabbf8/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/seangreene/.gradle/caches/transforms-3/515eded6257501e779aab7ec6441d5fa/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/seangreene/.gradle/caches/transforms-3/515eded6257501e779aab7ec6441d5fa/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/seangreene/.gradle/caches/transforms-3/5567d786b19d2aed95bd1a94b221dca1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/seangreene/.gradle/caches/transforms-3/5567d786b19d2aed95bd1a94b221dca1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/seangreene/.gradle/caches/transforms-3/0dbcef07bb172a5f76d89254d43ebd60/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/seangreene/.gradle/caches/transforms-3/0dbcef07bb172a5f76d89254d43ebd60/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/seangreene/.gradle/caches/transforms-3/d364e207b0175b155585da97f6b18605/transformed/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/seangreene/.gradle/caches/transforms-3/d364e207b0175b155585da97f6b18605/transformed/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/seangreene/.gradle/caches/transforms-3/b12f0785f206522b9d4f2664712e8074/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/seangreene/.gradle/caches/transforms-3/b12f0785f206522b9d4f2664712e8074/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/seangreene/.gradle/caches/transforms-3/2b5e46998ed093eaf353996aa6004bd5/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/seangreene/.gradle/caches/transforms-3/2b5e46998ed093eaf353996aa6004bd5/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/6b846bb952253138cb081ee0a99d6453/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/6b846bb952253138cb081ee0a99d6453/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/44830e79cd881a88dd0c9355ff91e8b3/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/44830e79cd881a88dd0c9355ff91e8b3/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/cf6c89fee34628f100d24e1842575a9d/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/cf6c89fee34628f100d24e1842575a9d/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/17737f7efd99b972c34ad77242ffe276/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/seangreene/.gradle/caches/transforms-3/17737f7efd99b972c34ad77242ffe276/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/seangreene/.gradle/caches/transforms-3/dd70b3fbe378b4767a7c0a4a7cc14109/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/seangreene/.gradle/caches/transforms-3/dd70b3fbe378b4767a7c0a4a7cc14109/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [org.tensorflow:tensorflow-lite-support-api:0.4.2] /Users/seangreene/.gradle/caches/transforms-3/d0094b2c07db13c54fed0cb164766729/transformed/jetified-tensorflow-lite-support-api-0.4.2/AndroidManifest.xml:4:3-71
+MERGED from [org.tensorflow:tensorflow-lite-support-api:0.4.2] /Users/seangreene/.gradle/caches/transforms-3/d0094b2c07db13c54fed0cb164766729/transformed/jetified-tensorflow-lite-support-api-0.4.2/AndroidManifest.xml:4:3-71
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/seangreene/.gradle/caches/transforms-3/348321d9e2b63285e18851317ade3215/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/seangreene/.gradle/caches/transforms-3/348321d9e2b63285e18851317ade3215/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [org.tensorflow:tensorflow-lite-api:2.10.0] /Users/seangreene/.gradle/caches/transforms-3/63d5eae9c3290a1d06e53a22d6e6948f/transformed/jetified-tensorflow-lite-api-2.10.0/AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-api:2.10.0] /Users/seangreene/.gradle/caches/transforms-3/63d5eae9c3290a1d06e53a22d6e6948f/transformed/jetified-tensorflow-lite-api-2.10.0/AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-gpu-api:2.10.0] /Users/seangreene/.gradle/caches/transforms-3/242966fd6b19c339dbe698c4fab2a8d5/transformed/jetified-tensorflow-lite-gpu-api-2.10.0/AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-gpu-api:2.10.0] /Users/seangreene/.gradle/caches/transforms-3/242966fd6b19c339dbe698c4fab2a8d5/transformed/jetified-tensorflow-lite-gpu-api-2.10.0/AndroidManifest.xml:7:5-8:41
+INJECTED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml
+INJECTED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml
+		ADDED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml
+		MERGED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml
+		MERGED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-alpha09] /Users/seangreene/.gradle/caches/transforms-3/12a91b3b43fef44c1c87b3b779fddf6b/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-alpha09] /Users/seangreene/.gradle/caches/transforms-3/12a91b3b43fef44c1c87b3b779fddf6b/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-alpha09] /Users/seangreene/.gradle/caches/transforms-3/12a91b3b43fef44c1c87b3b779fddf6b/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-alpha09] /Users/seangreene/.gradle/caches/transforms-3/12a91b3b43fef44c1c87b3b779fddf6b/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-alpha09] /Users/seangreene/.gradle/caches/transforms-3/12a91b3b43fef44c1c87b3b779fddf6b/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-alpha09] /Users/seangreene/.gradle/caches/transforms-3/12a91b3b43fef44c1c87b3b779fddf6b/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:29:13-51
+service#androidx.camera.core.impl.MetadataHolderService
+ADDED from [androidx.camera:camera-camera2:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/39853141c15ddd145441128d6606dda4/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:26:9-35:19
+MERGED from [androidx.camera:camera-core:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/65484fac769e295c4dc9a4c8c2163146/transformed/jetified-camera-core-1.1.0-beta03/AndroidManifest.xml:31:9-35:78
+MERGED from [androidx.camera:camera-core:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/65484fac769e295c4dc9a4c8c2163146/transformed/jetified-camera-core-1.1.0-beta03/AndroidManifest.xml:31:9-35:78
+	tools:node
+		ADDED from [androidx.camera:camera-camera2:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/39853141c15ddd145441128d6606dda4/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:31:13-31
+	android:enabled
+		ADDED from [androidx.camera:camera-camera2:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/39853141c15ddd145441128d6606dda4/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:28:13-36
+	android:exported
+		ADDED from [androidx.camera:camera-camera2:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/39853141c15ddd145441128d6606dda4/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:29:13-37
+	tools:ignore
+		ADDED from [androidx.camera:camera-camera2:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/39853141c15ddd145441128d6606dda4/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:30:13-75
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/39853141c15ddd145441128d6606dda4/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:27:13-75
+meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
+ADDED from [androidx.camera:camera-camera2:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/39853141c15ddd145441128d6606dda4/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:32:13-34:89
+	android:value
+		ADDED from [androidx.camera:camera-camera2:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/39853141c15ddd145441128d6606dda4/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:34:17-86
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.1.0-beta03] /Users/seangreene/.gradle/caches/transforms-3/39853141c15ddd145441128d6606dda4/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:33:17-103
+service#com.google.android.gms.metadata.ModuleDependencies
+ADDED from [com.google.android.gms:play-services-tflite-gpu:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/f7a4206043c1922aa5f5e782401254d5/transformed/jetified-play-services-tflite-gpu-16.0.0/AndroidManifest.xml:9:9-21:19
+MERGED from [com.google.android.gms:play-services-tflite-impl:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/519310e2c20ee6a3e8b9184e09800a73/transformed/jetified-play-services-tflite-impl-16.0.0/AndroidManifest.xml:9:9-21:19
+MERGED from [com.google.android.gms:play-services-tflite-impl:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/519310e2c20ee6a3e8b9184e09800a73/transformed/jetified-play-services-tflite-impl-16.0.0/AndroidManifest.xml:9:9-21:19
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tflite-gpu:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/f7a4206043c1922aa5f5e782401254d5/transformed/jetified-play-services-tflite-gpu-16.0.0/AndroidManifest.xml:11:13-36
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tflite-gpu:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/f7a4206043c1922aa5f5e782401254d5/transformed/jetified-play-services-tflite-gpu-16.0.0/AndroidManifest.xml:12:13-37
+	tools:ignore
+		ADDED from [com.google.android.gms:play-services-tflite-gpu:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/f7a4206043c1922aa5f5e782401254d5/transformed/jetified-play-services-tflite-gpu-16.0.0/AndroidManifest.xml:13:13-40
+	android:name
+		ADDED from [com.google.android.gms:play-services-tflite-gpu:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/f7a4206043c1922aa5f5e782401254d5/transformed/jetified-play-services-tflite-gpu-16.0.0/AndroidManifest.xml:10:13-78
+intent-filter#action:name:com.google.android.gms.metadata.MODULE_DEPENDENCIES
+ADDED from [com.google.android.gms:play-services-tflite-gpu:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/f7a4206043c1922aa5f5e782401254d5/transformed/jetified-play-services-tflite-gpu-16.0.0/AndroidManifest.xml:14:13-16:29
+action#com.google.android.gms.metadata.MODULE_DEPENDENCIES
+ADDED from [com.google.android.gms:play-services-tflite-gpu:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/f7a4206043c1922aa5f5e782401254d5/transformed/jetified-play-services-tflite-gpu-16.0.0/AndroidManifest.xml:15:17-94
+	android:name
+		ADDED from [com.google.android.gms:play-services-tflite-gpu:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/f7a4206043c1922aa5f5e782401254d5/transformed/jetified-play-services-tflite-gpu-16.0.0/AndroidManifest.xml:15:25-91
+meta-data#tflite_gpu_dynamite:222612000:required
+ADDED from [com.google.android.gms:play-services-tflite-gpu:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/f7a4206043c1922aa5f5e782401254d5/transformed/jetified-play-services-tflite-gpu-16.0.0/AndroidManifest.xml:18:13-20:36
+	android:value
+		ADDED from [com.google.android.gms:play-services-tflite-gpu:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/f7a4206043c1922aa5f5e782401254d5/transformed/jetified-play-services-tflite-gpu-16.0.0/AndroidManifest.xml:20:17-33
+	android:name
+		ADDED from [com.google.android.gms:play-services-tflite-gpu:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/f7a4206043c1922aa5f5e782401254d5/transformed/jetified-play-services-tflite-gpu-16.0.0/AndroidManifest.xml:19:17-70
+meta-data#tflite_dynamite:3:required
+ADDED from [com.google.android.gms:play-services-tflite-impl:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/519310e2c20ee6a3e8b9184e09800a73/transformed/jetified-play-services-tflite-impl-16.0.0/AndroidManifest.xml:18:13-20:36
+	android:value
+		ADDED from [com.google.android.gms:play-services-tflite-impl:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/519310e2c20ee6a3e8b9184e09800a73/transformed/jetified-play-services-tflite-impl-16.0.0/AndroidManifest.xml:20:17-33
+	android:name
+		ADDED from [com.google.android.gms:play-services-tflite-impl:16.0.0] /Users/seangreene/.gradle/caches/transforms-3/519310e2c20ee6a3e8b9184e09800a73/transformed/jetified-play-services-tflite-impl-16.0.0/AndroidManifest.xml:19:17-58
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/seangreene/.gradle/caches/transforms-3/a1e90883af87b628985714731eaed4dd/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/seangreene/.gradle/caches/transforms-3/a1e90883af87b628985714731eaed4dd/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/seangreene/.gradle/caches/transforms-3/a1e90883af87b628985714731eaed4dd/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/seangreene/.gradle/caches/transforms-3/a1e90883af87b628985714731eaed4dd/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/seangreene/.gradle/caches/transforms-3/1c50738130f4901d6e2b14a9d7e32daa/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/seangreene/.gradle/caches/transforms-3/1c50738130f4901d6e2b14a9d7e32daa/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/seangreene/.gradle/caches/transforms-3/1c50738130f4901d6e2b14a9d7e32daa/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/seangreene/.gradle/caches/transforms-3/19cbf5ae27963c9f6fd5db576d154aba/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/seangreene/.gradle/caches/transforms-3/19cbf5ae27963c9f6fd5db576d154aba/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/seangreene/.gradle/caches/transforms-3/19cbf5ae27963c9f6fd5db576d154aba/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/seangreene/.gradle/caches/transforms-3/19cbf5ae27963c9f6fd5db576d154aba/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/seangreene/.gradle/caches/transforms-3/19cbf5ae27963c9f6fd5db576d154aba/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:2:1-53:12 reason: src.java.org.tensorflow.lite.task.core has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:2:1-53:12 reason: src.java.org.tensorflow.lite.task.core has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/seangreene/Documents/DSMG-17/CustomImageDetectApp/examples/lite/examples/object_detection/android_play_services/app/src/main/AndroidManifest.xml:2:1-53:12 reason: src.java.org.tensorflow.lite.task.core requested WRITE_EXTERNAL_STORAGE
