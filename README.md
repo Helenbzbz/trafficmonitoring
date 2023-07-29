@@ -105,6 +105,8 @@ You should see a photo being taken and saved as test.jpg
 ## Run the Object Detection
 1. Download the Raspberry Pi Deployment Folder
 2. Run this command in the terminal
+`sudo apt-get update`
+`sudo apt-get upgrade`
 `cd Raspberry Pi Deployment`
 `sh setup.sh`
 3. Open the object_detection.py. Change the parameters in the main() function. The default parameters set the model to efficient_lite0.tflite, Run type to TPU, CPU numbers to 4, and camera size to 640*480
