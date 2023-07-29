@@ -67,7 +67,7 @@ ObjectDetector.ObjectDetectorOptions.builder()
 .setScoreThreshold(threshold)
 .setMaxResults(maxResults) 
 
-# Part 3. Deployment on Android
+# Part 3. Deployment on Raspberry Pi
 
 ## Overview
 The deployment applies prebuilt tensorflow lite libraries and a custom tensorflow lite model to process a continuous stream on the Raspberry pi. 
