@@ -111,7 +111,7 @@ You should see a photo being taken and saved as test.jpg
 4. Run the object detection code with the following command
 `python3 object_detection.py`
 
-## Use other tflite models on Android
+## Use other tflite models on Raspberry Pi
 1. Download a prebuilt tflite (object detection) model: https://tfhub.dev/
 2. Save a copy of the tflite file in Raspberry Pi Deployment folder
 3. In the main() function change the path of model file
