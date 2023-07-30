@@ -21,6 +21,7 @@ This app uses both prebuilt tensorflow lite libraries and a custom tensorflow li
 **This application should be run on a physical Android device**
 **Build in Android Studio. This was tested in Flamingo**
 
+## Video Demo on Youtube
 [![Video DEMO](https://github.com/Helenbzbz/trafficmonitoring/blob/main/Videos%20%26%20Graphs/Android%20Demo.png)]([https://www.youtube.com/watch?v=WqbGBtzQJUc])
 
 ## Prerequisites
