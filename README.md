@@ -21,9 +21,7 @@ This app uses both prebuilt tensorflow lite libraries and a custom tensorflow li
 **This application should be run on a physical Android device**
 **Build in Android Studio. This was tested in Flamingo**
 
-Video DEMO
-Videos & Graphs/Android Deployment.mp4
-The video is also available at: https://www.youtube.com/watch?v=WqbGBtzQJUc
+[![Video DEMO]()]([https://www.youtube.com/watch?v=WqbGBtzQJUc])
 
 ## Prerequisites
 
