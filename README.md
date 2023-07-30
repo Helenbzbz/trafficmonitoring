@@ -72,13 +72,12 @@ ObjectDetector.ObjectDetectorOptions.builder()
 The deployment applies prebuilt tensorflow lite libraries and a custom tensorflow lite model to process a continuous stream on the Raspberry pi. 
 **The code below referred to: https://github.com/tensorflow/examples/tree/master/lite/examples/object_detection/raspberry_pi**
 
-Demo Video
-Videos & Graphs/Raspberry Pi.mp4
+## Video Demo on Youtube
+[![Video DEMO](https://github.com/Helenbzbz/trafficmonitoring/blob/main/Videos%20%26%20Graphs/Raspberry%20Pi%20Demo.png)](https://www.youtube.com/watch?v=Z_shGh3aO1M "VIDEO DEMO RASPBERRYPI")
 
 ## Hardwares Required
-Components needed
-Videos & Graphs/Hardware needed.jpg
 
+![Handware Needed](https://github.com/Helenbzbz/trafficmonitoring/blob/main/Videos%20%26%20Graphs/Hardware%20Needed.png)
 * Raspberry pi 4 Model B
 * Raspberry pi Camera Module v2/v3
 * SD Card (with 64 bit OS System)
@@ -88,9 +87,7 @@ Videos & Graphs/Hardware needed.jpg
 * Raspberry pi Charger
 
 ## Hardware setup
-
-Demo Video
-Videos & Graphs/Raspberry pi installation.mp4
+[![Video DEMO](https://github.com/Helenbzbz/trafficmonitoring/blob/main/Videos%20%26%20Graphs/Raspberry%20Pi%20Installation.png)](https://www.youtube.com/watch?v=k0r517fdMJw "VIDEO DEMO RASPBERRYPI SETUP")
 
 1. Write 64-bit OS System to the SD card (32-bit will not work given Tensorflow Lite do not support 32-bit OS system). Further question please referred to: https://www.raspberrypi.com/documentation/computers/getting-started.html
 2. Connect Raspberry pi with mouse, keyboards, charger, external screens, and camera module. See above video for detailed instructions
