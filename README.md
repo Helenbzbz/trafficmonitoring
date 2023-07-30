@@ -21,9 +21,7 @@ This app uses both prebuilt tensorflow lite libraries and a custom tensorflow li
 **This application should be run on a physical Android device**
 **Build in Android Studio. This was tested in Flamingo**
 
-Video DEMO
-Videos & Graphs/Android Deployment.mp4
-The video is also available at: https://www.youtube.com/watch?v=WqbGBtzQJUc
+[![Video DEMO]()]([https://www.youtube.com/watch?v=WqbGBtzQJUc])
 
 ## Prerequisites
 
@@ -67,7 +65,7 @@ ObjectDetector.ObjectDetectorOptions.builder()
 .setScoreThreshold(threshold)
 .setMaxResults(maxResults) 
 
-# Part 3. Deployment on Android
+# Part 3. Deployment on Raspberry Pi
 
 ## Overview
 The deployment applies prebuilt tensorflow lite libraries and a custom tensorflow lite model to process a continuous stream on the Raspberry pi. 
@@ -113,7 +111,7 @@ You should see a photo being taken and saved as test.jpg
 4. Run the object detection code with the following command
 `python3 object_detection.py`
 
-## Use other tflite models on Android
+## Use other tflite models on Raspberry Pi
 1. Download a prebuilt tflite (object detection) model: https://tfhub.dev/
 2. Save a copy of the tflite file in Raspberry Pi Deployment folder
 3. In the main() function change the path of model file
